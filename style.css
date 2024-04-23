@@ -818,6 +818,7 @@ form textarea {
   }
   .about-text h2 ,.sub-title ,.main-text h2 ,.contact-text h2{
     font-size: 40px;
+    padding-bottom: 0px;
   }
   .portfolio-content{
     display: block;
