@@ -784,7 +784,7 @@ form textarea {
       }
   .home {
     height: 54vh;
-    background-size: auto;
+    /* background-size: auto; */
     padding: 80px 2% 0;
   }
   .home-content h3 {
