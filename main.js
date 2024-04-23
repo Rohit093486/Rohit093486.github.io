@@ -5,3 +5,9 @@ var typed = new Typed(".text",{
     backDelay : 1000,
     loop : false
 });
+
+function toggleMenu() {
+    const navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('active');
+  }
+  

@@ -8,12 +8,17 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
 </head>
 
 <body>
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
-
+        <div class="menu-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <nav class="navbar">
             <a href="#home" style="--i:1" class="active">Home</a>
             <a href="#about" style="--i:2">About</a>
@@ -22,12 +27,13 @@
             <a href="#contact" style="--i:5">Contact</a>
         </nav>
     </header>
+
     <section class="home" id="home">
         <div class="home-content">
             <h3>Hello, It's Me</h3>
             <h1>Rohit Parihar</h1>
-            <h3>And I'm a <span class="text"></span></h3>  
-            <a style="margin-top: 20px" href="images\Rohit Parihar CV.pdf" target="_blank" class="btn-box">View CV</a>
+            <h3>And I'm a <span class="text"></span></h3>
+            <a style="margin-top: 20px" href="images\Rohit PariharCV.pdf" target="_blank" class="btn-box">View CV</a>
         </div>
         <span class="home-imgHover"></span>
     </section>
@@ -247,11 +253,13 @@
         <div class="contact-text">
             <h2>Contact <span>Me</span></h2>
             <h4>Let's Work Together</h4>
-            <p>Let's connect and explore opportunities to collaborate, share knowledge, and contribute to the exciting world of software development.Feel free to reach out—I'm always up for a good tech conversation or a new project!</p>
+            <p>Let's connect and explore opportunities to collaborate, share knowledge, and contribute to the exciting
+                world of software development.Feel free to reach out—I'm always up for a good tech conversation or a new
+                project!</p>
             <div class="contact-list">
                 <li><i class='bx bxs-send'></i>rohitparihar9758@gmail.com</li>
                 <li><i class='bx bx-phone'></i>8791458460</li>
-            </div>  
+            </div>
         </div>
 
         <div class="contact-form">
@@ -269,16 +277,9 @@
 
     </section>
     <div class="last-text">
-        <p>Front-End Developer </p>
+        <!-- <p>Front-End Developer </p> -->
     </div>
     <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
-
-
-
-
-
-
-
     <script src="main.js"></script>
 </body>
 
