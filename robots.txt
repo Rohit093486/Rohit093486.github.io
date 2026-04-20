@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rohit093486.github.io/sitemap.xml
+Sitemap: https://rohit093486.github.io/sitemap_index.xml
