@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohit Parihar | Senior Full Stack Developer</title>
+  <meta
+    name="description"
+    content="Portfolio of Rohit Parihar, Senior Full Stack Developer specializing in React, FastAPI, and scalable enterprise applications."
+  />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Rohit Parihar" />
+  <meta name="theme-color" content="#3b82f6" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Rohit Parihar | Senior Full Stack Developer" />
+  <meta
+    property="og:description"
+    content="Explore Rohit Parihar's full stack portfolio, projects, skills, and measurable product impact."
+  />
+  <meta property="og:image" content="assets/hero-3d.svg" />
+  <meta property="og:url" content="https://example.com" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Rohit Parihar | Senior Full Stack Developer" />
+  <meta
+    name="twitter:description"
+    content="Full stack portfolio with enterprise projects, outcomes, and technical expertise."
+  />
+  <meta name="twitter:image" content="assets/hero-3d.svg" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1" aria-hidden="true"></div>
+  <div class="bg-orb orb-2" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#home">Rohit Parihar</a>
+      <div class="nav-actions">
+        <button
+          id="menu-toggle"
+          class="menu-toggle"
+          type="button"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          ☰
+        </button>
+        <nav id="primary-nav" class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+          <span id="theme-toggle-icon" aria-hidden="true">☀</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-content">
+        <p class="tag">Senior Full Stack Developer</p>
+        <h1>Building secure, high-performance enterprise products.</h1>
+        <p class="hero-copy">
+          I am a Full Stack Developer with 5+ years of experience delivering
+          scalable solutions in banking, insurance, and automation. I specialize
+          in React, TypeScript, FastAPI, and cloud-native architectures.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="#contact">Hire Me</a>
+          <a class="btn btn-secondary" href="assets/Rohit_Parihar_Resume.pdf" download>Download Resume</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="assets/hero-3d.svg" alt="3D style developer dashboard illustration" />
+        <span class="float-badge badge-1">React + FastAPI</span>
+        <span class="float-badge badge-2">Enterprise Delivery</span>
+        <span class="float-badge badge-3">Security First</span>
+      </div>
+      <div class="metrics-header">
+        <p>Key Impact Metrics</p>
+      </div>
+      <ul class="metrics">
+        <li><strong>67%</strong><span>Reduction in onboarding time</span></li>
+        <li><strong>45%</strong><span>Reduction in verification cost</span></li>
+        <li><strong>40%</strong><span>Improvement in UI performance</span></li>
+      </ul>
+    </section>
+
+    <section class="section container value-section" id="benefits">
+      <div class="value-head">
+        <p class="value-tag">Why Work With Me</p>
+        <h2>Business-first engineering with measurable outcomes</h2>
+      </div>
+      <div class="value-grid">
+        <article class="value-card">
+          <h3>Faster Delivery</h3>
+          <p>
+            I ship production-ready features quickly with scalable architecture,
+            clear planning, and quality-focused execution.
+          </p>
+        </article>
+        <article class="value-card">
+          <h3>Cost & Efficiency Gains</h3>
+          <p>
+            My solutions reduce manual effort and operational costs using
+            automation, better UX flows, and performance optimization.
+          </p>
+        </article>
+        <article class="value-card">
+          <h3>Enterprise Security</h3>
+          <p>
+            Strong experience implementing secure authentication with SSO, OAuth
+            2.0, JWT, and RBAC for enterprise-grade applications.
+          </p>
+        </article>
+        <article class="value-card">
+          <h3>Ownership & Leadership</h3>
+          <p>
+            I lead from architecture to delivery, mentor teams, and maintain
+            high-quality code standards across the full product lifecycle.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <p>
+        Currently working at WalkingTree Technologies, I lead architecture and
+        delivery for enterprise web applications with strong focus on security,
+        performance, and business impact. I enjoy mentoring teams and turning
+        complex product requirements into clean, scalable systems.
+      </p>
+    </section>
+
+    <section class="section container visual-showcase" id="showcase">
+      <h2>Product Visual Showcase</h2>
+      <p class="section-intro">
+        A visual snapshot of the type of enterprise interfaces and data-rich products I build.
+      </p>
+      <div class="showcase-grid">
+        <article class="showcase-card lift">
+          <img src="assets/dashboard-analytics.svg" alt="Analytics dashboard visual" />
+          <h3>Real-time Analytics Dashboard</h3>
+        </article>
+        <article class="showcase-card lift delay">
+          <img src="assets/security-auth.svg" alt="Secure authentication workflow visual" />
+          <h3>Secure Access and Auth Flows</h3>
+        </article>
+        <article class="showcase-card lift delay-2">
+          <img src="assets/automation-pipeline.svg" alt="Automation pipeline visual" />
+          <h3>Automation and Delivery Pipeline</h3>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2>Technical Skills</h2>
+      <p class="section-intro">
+        Core technologies I use to design, ship, and scale production systems.
+      </p>
+      <div class="skills-highlight">
+        <article>
+          <p class="highlight-label">Primary Stack</p>
+          <h3>React + TypeScript + FastAPI</h3>
+        </article>
+        <article>
+          <p class="highlight-label">Specialization</p>
+          <h3>Secure enterprise apps with SSO, RBAC, and real-time systems</h3>
+        </article>
+      </div>
+      <div class="skills-board">
+        <article class="skill-group">
+          <h3>Frontend</h3>
+          <div class="skill-pills">
+            <span>React</span><span>Angular</span><span>TypeScript</span><span>Redux Toolkit</span><span>MUI</span><span>Tailwind</span><span>Vite</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3>Backend</h3>
+          <div class="skill-pills">
+            <span>Python</span><span>FastAPI</span><span>Node.js</span><span>REST APIs</span><span>SQLAlchemy</span><span>JWT</span><span>RBAC</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3>Databases</h3>
+          <div class="skill-pills">
+            <span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3>DevOps & Cloud</h3>
+          <div class="skill-pills">
+            <span>Docker</span><span>Kubernetes</span><span>Azure DevOps</span><span>Jenkins</span><span>CI/CD</span><span>Helm</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3>Testing & Quality</h3>
+          <div class="skill-pills">
+            <span>Jest</span><span>React Testing Library</span><span>JUnit</span><span>Cucumber</span><span>Robot Framework</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3>Authentication & Security</h3>
+          <div class="skill-pills">
+            <span>Azure MSAL</span><span>OAuth 2.0</span><span>JWT</span><span>RBAC</span><span>Keycloak</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>Projects</h2>
+      <p class="section-intro">
+        Selected full-stack and frontend projects across banking, automation,
+        insurance, trading, and industrial domains.
+      </p>
+      <div class="projects-list">
+        <article class="project-row">
+          <h3>Mashreq Audit Platform</h3>
+          <p class="project-meta">Tech Lead | May 2024 - Present</p>
+          <p class="project-stack">React 19, FastAPI, PostgreSQL, Socket.io, Azure MSAL</p>
+          <ul>
+            <li>Built enterprise audit platform for CBUAE dormant-account compliance.</li>
+            <li>Implemented Azure MSAL SSO with JWT-based RBAC and SSE streaming.</li>
+          </ul>
+        </article>
+        <article class="project-row">
+          <h3>Test Automation Platform (TAP-DAP)</h3>
+          <p class="project-meta">Tech Lead | May 2024 - Present</p>
+          <p class="project-stack">React, FastAPI, PostgreSQL, Docker, LangChain</p>
+          <ul>
+            <li>Generated JUnit, Cucumber, and Robot tests from user stories at 85% accuracy.</li>
+            <li>Reduced manual QA effort by 60% with integrated DevOps workflows.</li>
+          </ul>
+        </article>
+        <article class="project-row">
+          <h3>Profile Trading Platform</h3>
+          <p class="project-meta">Tech Lead | May 2024 - Present</p>
+          <p class="project-stack">React.js, Redux, Node.js, JWT, OAuth 2.0</p>
+          <ul>
+            <li>Developed professional data marketplace with secure SSO authorization.</li>
+            <li>Implemented recommendation engine for profile-to-opportunity matching.</li>
+          </ul>
+        </article>
+        <article class="project-row">
+          <h3>Plutas.AI Insurance Claims Platform</h3>
+          <p class="project-meta">Senior Frontend Developer | Jan 2025 - Apr 2025</p>
+          <p class="project-stack">React.js, TypeScript, REST APIs</p>
+          <ul>
+            <li>Reduced insurance claims processing time by 50% through workflow redesign.</li>
+            <li>Improved mobile UX, reducing bounce by 30% and boosting conversion by 20%.</li>
+          </ul>
+        </article>
+        <article class="project-row">
+          <h3>Alpha Tree Stock Analysis Platform</h3>
+          <p class="project-meta">Senior Frontend Developer | Nov 2024 - Jan 2025</p>
+          <p class="project-stack">React.js, Predictive Analytics, Real-time Visualizations</p>
+          <ul>
+            <li>Improved stock analysis decision time by 35% with live data dashboards.</li>
+            <li>Enhanced UI performance by 40% with code splitting and rendering optimization.</li>
+          </ul>
+        </article>
+        <article class="project-row">
+          <h3>Diwas Video-KYC Digital Onboarding (IDRBT)</h3>
+          <p class="project-meta">Senior Frontend Developer | Mar 2024 - Nov 2024</p>
+          <p class="project-stack">React, TypeScript, Redux Toolkit, WebRTC, Node.js</p>
+          <ul>
+            <li>Reduced onboarding cycle from 15 to 5 minutes for digital banking users.</li>
+            <li>Lowered identity validation costs by 45% with compliant video verification.</li>
+          </ul>
+        </article>
+        <article class="project-row">
+          <h3>Grid Scaled Foundations Robotics Control UI</h3>
+          <p class="project-meta">Frontend Developer | May 2023 - Mar 2024</p>
+          <p class="project-stack">React.js, WebSocket, Material UI</p>
+          <ul>
+            <li>Improved robot response time by 25% using optimized real-time communication.</li>
+            <li>Eliminated 30% configuration errors through modular validation-first UI.</li>
+          </ul>
+        </article>
+        <article class="project-row">
+          <h3>Profile Management Portal</h3>
+          <p class="project-meta">Frontend Developer | Oct 2022 - Apr 2023</p>
+          <p class="project-stack">React, Node.js, REST APIs</p>
+          <ul>
+            <li>Built recruitment portal with automated screening, reducing hiring time by 50%.</li>
+            <li>Improved candidate match accuracy by 40% using normalized data models.</li>
+          </ul>
+        </article>
+        <article class="project-row">
+          <h3>Oneshield Industrial Management</h3>
+          <p class="project-meta">Frontend Developer | Jan 2022 - Oct 2022</p>
+          <p class="project-stack">Angular, TypeScript</p>
+          <ul>
+            <li>Delivered industrial UI workflows that increased user engagement by 40%.</li>
+            <li>Reduced implementation errors by 30% with a metadata-driven framework.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section container">
+      <h2>Experience</h2>
+      <p class="section-intro">
+        Career progression at WalkingTree Technologies with increasing
+        ownership, technical scope, and delivery impact.
+      </p>
+      <div class="experience-list">
+        <article class="experience-item">
+          <aside class="experience-period">
+            <span>Apr 2024 - Present</span>
+            <small>Agra, India</small>
+          </aside>
+          <div class="experience-content">
+            <h3>Senior Software Engineer</h3>
+            <p class="timeline-meta">WalkingTree Technologies</p>
+            <ul>
+              <li>Leading full-stack architecture and delivery for enterprise client platforms.</li>
+              <li>Driving secure SSO integrations and real-time workflows for compliance systems.</li>
+              <li>Mentoring developers and improving team delivery quality and velocity.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="experience-item">
+          <aside class="experience-period">
+            <span>Apr 2023 - Apr 2024</span>
+            <small>Agra, India</small>
+          </aside>
+          <div class="experience-content">
+            <h3>Software Engineer</h3>
+            <p class="timeline-meta">WalkingTree Technologies</p>
+            <ul>
+              <li>Built React-based enterprise modules with scalable frontend architecture.</li>
+              <li>Improved performance and accessibility, including major Lighthouse gains.</li>
+              <li>Implemented real-time dashboard capabilities and improved UX outcomes.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="experience-item">
+          <aside class="experience-period">
+            <span>Jan 2021 - Apr 2023</span>
+            <small>Agra, India</small>
+          </aside>
+          <div class="experience-content">
+            <h3>Associate Software Engineer</h3>
+            <p class="timeline-meta">WalkingTree Technologies</p>
+            <ul>
+              <li>Developed reusable components used across multiple enterprise applications.</li>
+              <li>Contributed to real-time UI systems and data-driven control interfaces.</li>
+              <li>Reduced configuration and implementation errors through validation-first design.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container contact">
+      <h2>Let's connect</h2>
+      <p>
+        Open to full-time roles and high-impact freelance opportunities.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:rohitparihar9758@gmail.com?subject=Project%20Discussion%20with%20Rohit">
+          <span aria-hidden="true">✉</span>
+          <span>Email</span>
+        </a>
+        <a href="https://wa.me/918791454860" target="_blank" rel="noreferrer">
+          <span aria-hidden="true">💬</span>
+          <span>WhatsApp</span>
+        </a>
+        <a href="https://linkedin.com/in/-rohitparihar" target="_blank" rel="noreferrer">
+          <span aria-hidden="true">in</span>
+          <span>LinkedIn</span>
+        </a>
+        <a href="assets/Rohit_Parihar_Resume.pdf" download>
+          <span aria-hidden="true">⬇</span>
+          <span>Resume</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <button id="chat-toggle" class="chat-toggle" type="button" aria-label="Open AI assistant">
+    Ask AI
+  </button>
+
+  <section id="chat-widget" class="chat-widget" aria-live="polite" aria-label="Portfolio AI assistant">
+    <div class="chat-header">
+      <h3>Portfolio AI Assistant</h3>
+      <button id="chat-close" type="button" aria-label="Close chat">✕</button>
+    </div>
+    <p class="chat-subtitle">Ask about my experience, skills, projects, or contact.</p>
+    <div id="chat-messages" class="chat-messages">
+      <article class="chat-message bot">
+        Hi, I am Rohit's AI assistant. Ask me about his projects, skills, or availability.
+      </article>
+    </div>
+    <form id="chat-form" class="chat-form">
+      <input
+        id="chat-input"
+        type="text"
+        name="message"
+        placeholder="Type your question..."
+        maxlength="400"
+        required
+      />
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Rohit Parihar · Senior Full Stack Developer · Building scalable digital products.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Rohit Parihar",
+      "jobTitle": "Senior Full Stack Developer",
+      "email": "mailto:rohitparihar9758@gmail.com",
+      "telephone": "+91-8791454860",
+      "url": "https://example.com",
+      "sameAs": [
+        "https://linkedin.com/in/-rohitparihar"
+      ],
+      "knowsAbout": [
+        "React",
+        "TypeScript",
+        "FastAPI",
+        "Python",
+        "Node.js",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes"
+      ]
+    }
+  </script>
+</body>
+</html>
