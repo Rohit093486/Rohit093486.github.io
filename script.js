@@ -287,7 +287,7 @@ const localFaq = [
   {
     keywords: ["contact", "email", "phone", "linkedin", "hire", "available"],
     answer:
-      "You can contact Rohit at rohitparihar9758@gmail.com, +91-8791454860, or via LinkedIn: linkedin.com/in/-rohitparihar. He is open to full-time and freelance opportunities.",
+      "You can contact Rohit at rohitparihar9758@gmail.com, +91-8791458460, or via LinkedIn: linkedin.com/in/-rohitparihar. He is open to full-time and freelance opportunities.",
   },
   {
     keywords: ["impact", "result", "achievement", "metrics", "performance"],

@@ -27,7 +27,7 @@ Use this profile data as first-party truth:
   7) Grid Scaled Foundations Robotics UI.
   8) Profile Management Portal.
   9) Oneshield Industrial Management.
-- Contact: rohitparihar9758@gmail.com, +91-8791454860, linkedin.com/in/-rohitparihar.
+- Contact: rohitparihar9758@gmail.com, +91-8791458460, linkedin.com/in/-rohitparihar.
 
 Behavior rules:
 1) If user asks about Rohit, portfolio, resume, skills, projects, impact, hiring, rates, availability, answer from profile context.
